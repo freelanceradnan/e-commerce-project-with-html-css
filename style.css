@@ -240,13 +240,26 @@ font-size:14px;
   bottom:20px;
   right:10px;
 }
-.product-container{
+.products {
   display: flex;
-  gap:10px;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
 }
+
+.product-card {
+  width: 220px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+}
+
 #banner{
   display: flex;
   flex-direction: column;
