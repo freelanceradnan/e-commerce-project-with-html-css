@@ -40,14 +40,14 @@ async function fetchApiData(url){
         <img src="${product.image}" alt="${product.title}">
           <span>${product.category}</span>
           <h5>${product.title}</h5>
+         
           <div class="star">
-          <div class="star">
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
-          </div>
+          
           <h4>$${product.price}</h4>
         </div>
       `;
