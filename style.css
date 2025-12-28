@@ -645,6 +645,18 @@ footer .copyright{
 footer .copyright{
   text-align: start;
 }
+/* single-product-sproduct */
+#prodetails{
+  display: flex;
+  flex-direction: column;
+}
+#prodetails .single-pro-image {
+    width: 100%!important;
+    margin-right: 0px!important
+}
+#prodetails .single-pro-details {
+    width:100%!important;
+}
 }
 @media (max-width: 1059px){
   #feature{
