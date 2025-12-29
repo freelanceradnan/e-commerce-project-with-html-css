@@ -673,7 +673,24 @@ footer .copyright{
 #prodetails .single-pro-details {
     width:100%!important;
 }
-
+/* blog page */
+#blog .blog-box{
+  display: flex;
+  flex-direction: column!important;
+  align-items: flex-start!important;
+}
+#blog{
+  padding:100px 20px 0px 20px !important;
+}
+.blog-box .blog-img{
+  
+  width:100%!important;
+  margin-right: 0px!important;
+  margin-bottom: 30px!important;
+}
+#blog .blog-details{
+  width:100%!important;
+}
 }
 @media (max-width: 1059px){
   #feature{
