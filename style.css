@@ -961,6 +961,9 @@ footer .copyright{
 #cart table tbody tr td i{
   color:#4e5574;
 }
+#cart{
+  overflow-x: auto;
+}
 #cart-add{
   display: flex;
   flex-wrap: wrap;
@@ -1124,6 +1127,22 @@ footer .copyright{
 .form-details form{
   width:100%!important;
   margin-bottom: 30px;
+}
+/* cart page */
+#cart-add{
+  display: flex;
+  flex-direction: column;
+}
+#coupon{
+  width:100%;
+}
+#coupon input[type=text]{
+  width:200px;
+  
+}
+#Subtotal{
+ width:100%;
+ padding:20px;
 }
 }
 @media (max-width: 799px){
