@@ -969,6 +969,30 @@ footer .copyright{
   flex-wrap: wrap;
   justify-content: space-between;
 }
+#cart table td:nth-child(1){
+  width:100px;
+  text-align: center;
+}
+#cart table td:nth-child(2){
+  width:150px;
+  text-align: center;
+}
+#cart table td:nth-child(3){
+  width:150px;
+  text-align: center;
+}
+#cart table td:nth-child(4){
+  width:150px;
+  text-align: center;
+}
+#cart table td:nth-child(5){
+  width:150px;
+  text-align: center;
+}
+#cart table td:nth-child(6){
+  width:140px;
+  text-align: center;
+}
 #coupon{
   width:50%;
   margin-bottom: 30px;
