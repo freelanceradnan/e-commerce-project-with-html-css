@@ -47,9 +47,8 @@ async function fetchApiData(url){
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
-          
-          <h4>$${product.price}</h4>
         </div>
+        <h4>$${product.price}</h4>
       `;
  });
   } catch (error) {
