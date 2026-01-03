@@ -263,6 +263,7 @@ font-size:14px;
 .product-card .star{
   display: flex;
   gap:5px;
+  justify-content: center;
   padding:10px 0;
 }
 #banner{
@@ -1038,6 +1039,19 @@ footer .copyright{
   margin-right: 10px;
   border:1px solid #e2e9e1;
 }
+.shopping-flex i{
+  height:40px;
+  width:40px;
+  color:#088178;
+  border:1px solid #cce7d0;
+  border-radius: 50%;
+  position: absolute;
+  bottom:20px;
+  right:20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (max-width: 477px){
   #header{
@@ -1065,6 +1079,7 @@ footer .copyright{
   width:100%;
  
 }
+
 #banner{
   height:40vh;
 }

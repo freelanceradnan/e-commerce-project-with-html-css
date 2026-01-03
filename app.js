@@ -36,20 +36,28 @@ async function fetchApiData(url){
   let product=data
  product.forEach(product => {
    productsDiv.innerHTML += `
-        <div class="product-card">
-        <img src="${product.image}" alt="${product.title}">
-          <span>${product.category}</span>
-          <h5>${product.title}</h5>
-         
-          <div class="star">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
-        </div>
-        <h4>$${product.price}</h4>
+       <div class="product-card" onclick="getid(${product.id}); window.location.href='sproduct.html'">
+
+    <img src="${product.image}" alt="${product.title}">
+    <span>${product.category}</span>
+    <h5>${product.title}</h5>
+
+    <div class="star">
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+      <i class="fa fa-star"></i>
+    </div>
+
+    <div class="shopping-flex">
+    <i class="fa-solid fa-cart-shopping shopping-flex-icon"></i>
+    </div>
+    <h4>$${product.price}</h4>
+
+  </div>
       `;
+     
  });
   } catch (error) {
     console.log(error)
