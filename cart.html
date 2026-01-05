@@ -54,31 +54,9 @@
             <td>Subtotal</td>
         </tr>
     </thead>
-    <tbody>
-        <tr>
-            <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
-            <td><img src="image/f1.jpg" alt=""></td>
-            <td>Cartoon T-shirts</td>
-            <td>$118.19</td>
-            <td><input type="number" value="1" id="td-input"></td>
-            <td>$118.19</td>
-        </tr>
-        <tr>
-            <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
-            <td><img src="image/f2.jpg" alt=""></td>
-            <td>Cartoon T-shirts</td>
-            <td>$118.19</td>
-            <td><input type="number" value="1" id="td-input"></td>
-            <td>$118.19</td>
-        </tr>
-        <tr>
-            <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
-            <td><img src="image/f3.jpg" alt=""></td>
-            <td>Cartoon T-shirts</td>
-            <td>$118.19</td>
-            <td><input type="number" value="1" id="td-input"></td>
-            <td>$118.19</td>
-        </tr>
+    <tbody class="product-tbody">
+   
+       
     </tbody>
 </table>
 </section>
@@ -95,7 +73,7 @@
         <table>
             <tr>
                 <td>Cart Subtotal</td>
-                <td>$ 335</td>
+                <td id="cart-subtotal">$0.00</td>
             </tr>
             <tr>
                 <td>Shipping</td>
@@ -104,7 +82,7 @@
             <tr>
                 <td>
                     <strong>Total</strong>
-                    <strong>$335</strong>
+                    <strong id="cart-total">$0.00</strong>
                 </td>
             </tr>
         </table>
@@ -164,8 +142,7 @@
     &copy;This website is Design By Adnan Dev
 </div>
         </footer>
-        <script src="app.js">
-
-        </script>
+<script src="card.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

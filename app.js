@@ -12,18 +12,7 @@ if(close){
     nav.classList.remove('active')
     })
 }
-//fetch api
-// const productsDiv = document.querySelector('.products');
 
-// fetch('')
-//   .then(res => res.json())
-//   .then(products => {
-//     productsDiv.innerHTML = ""; 
-
-//    (product => {
-//      
-//     });
-//   });
 document.addEventListener('DOMContentLoaded',()=>{
 let productsDiv=document.querySelector('.products')
 let loader=document.getElementById('loading')
@@ -57,6 +46,7 @@ async function fetchApiData(url){
 
   </div>
       `;
+    
      
  });
   } catch (error) {
